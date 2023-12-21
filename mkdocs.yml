@@ -1,0 +1,36 @@
+site_name: EK Documentation
+
+nav:
+    - Home: index.md
+    - Pandas: pandas.md
+    - FastAPI: fastapi.md
+    - Assistance: assist.md
+    - visit:  https://llmtools.ekbana.ai/user-stories/6de2ff7a-578a-42a1-9373-4a632e1f3877
+    
+
+theme: 
+    name: material
+    nav: horizontal
+    feature:
+        - tabs: true
+    palette:
+        primary: green
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - attr_list
+  - pymdownx.superfences 
+
+# plugins:
+#     - pdf-export:
+#         combined: true
+extra:
+    social:
+        - icon: fontawesome/brands/github-alt
+        - icon: fontawesome/brands/twitter
+        - icon: fontawesome/brands/linkedin
+
+copyright: |
+    &copy; 2023 ekbana
